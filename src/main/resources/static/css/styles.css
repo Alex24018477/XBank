@@ -1,0 +1,195 @@
+body {
+    color: #8f8f8f;
+    background-color: #fbfbfb;
+    font-size: 12px;
+    font: Tahoma, sans-serif;
+    border-top: 5px #7e7e7e solid;
+    margin: 0;
+    background-image: url(../images/2.jpg);
+
+
+}
+
+.wrapper {
+    max-width: 960px;
+    margin: auto;
+}
+
+header {
+    padding: 10px 0;
+
+}
+
+#course ul {
+    font: 14px Oswald, sans-serif #7e7e7e;
+    float: right;
+    margin: 0;
+    padding:0 50px 0 0;
+    overflow: auto;
+    top: 0;
+}
+#nameUser {
+    position: relative;
+  top: 90px;
+  right: 20;
+    font: 14px Oswald, sans-serif #7e7e7e;
+    float: right;
+   padding: 0;
+   
+    top: 20;
+
+}
+#course li {
+    display: inline;
+    margin: 0;
+}
+#nameUser li {
+    display: inline;
+    margin: 0;
+}
+button {
+    background: #29c5e6;
+}
+
+.top-menu ul {
+
+    padding: 10px 0;
+    margin: 0;
+
+}
+
+li {
+    list-style-type: none; /* Убираем маркеры */
+}
+
+.top-menu li {
+    display: inline-block;
+    font: 14px Oswald, sans-serif #7e7e7e;
+    width: 33%;
+    padding: 10px 0;
+    margin: 0;
+
+
+}
+
+.top-menu li:hover {
+    background: #83d524;
+
+}
+
+.top-menu li a:hover {
+    color: #f1fbfd;
+}
+
+nav a {
+    text-decoration: none;
+
+}
+
+.top-menu {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+
+}
+
+nav ul {
+    background: #f3f3f3;
+    padding: 0;
+    margin: 0;
+    border-color: 1px #e7e7e7;
+}
+
+li a {
+    color: #b2b2b2;
+    margin: auto;
+}
+
+#description {
+    font-size: 20px;
+    font-style: italic;
+}
+
+#description svg {
+    color: #83d524;
+    size: 1.5em;
+}
+.container{
+border-top: 1px #7e7e7e solid;
+
+}
+.login {
+    border: 4px #83d524 solid;
+    margin: 25px;
+    right: 30px;
+    width: 300px;
+
+}
+
+.login form {
+    border: 20px #ffffff solid;
+
+}
+
+#heading {
+    background: url(../images/h1-bg.png);
+    margin: 30px 0;
+    padding-left: 20px;
+    font: 40px Oswald, sans-serif, "Times New Roman" #7e7e7e;
+    font-style: italic;
+}
+
+h1 {
+    display: inline-block;
+    color: #7e7e7e;
+    font: 40px/40px 'Oswald', sans-serif;
+    background: url(../images/bg.png);
+    margin: 0;
+    padding: 0 10px;
+}
+
+aside {
+    float: left;
+    width: 250px;
+}
+
+section {
+    margin-left: 280px;
+    padding-bottom: 50px;
+}
+
+.footer {
+    background-color: yellowgreen;
+
+    padding: 10px 0 10px 20px;
+    margin-top: 30px;
+
+
+}
+
+.mr-3 {
+    width: 20px;
+}
+
+#social {
+    text-align: center;
+    float: right;
+
+}
+
+#Phone {
+    width: 50%;
+    vertical-align: middle;
+}
+.btn btn-outline-success:hover {
+    background: #83d524;
+    margin-bottom: 20px;
+}
+.login-registration{
+    max-width: 660px;
+    margin: auto;
+
+}
+.div1{
+    margin: auto;
+}
