@@ -51,11 +51,16 @@ public class UserService {
             return false;
         }
         if (!Utils.isValidEmailAddress(email)) {//если валидация прошла упешно
+            logger.info("Please check your Email");
+            return false;
+        }
+        if (userRepository.findByEmail(email) != null) {//если валидация прошла упешно
+            logger.info("User with email " + email + " already exist. Please check your Email or enter with your login");
             return false;
         }
         //проверяем нет ли уже такого юзера в базе по логину
         if (userRepository.existsByLogin(login)) {
-            logger.info("User with login " + login + " already existed");
+            logger.info("User with login " + login + " already exist");
             return false;
         }
 

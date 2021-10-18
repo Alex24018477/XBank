@@ -36,9 +36,7 @@ public class MyController {
 
     @GetMapping("/registration")
     public String registrationForm() {
-        System.out.println("-----------------------------------------------------");
-        System.out.println(userService.getAllUsers());
-        System.out.println("-----------------------------------------------------");
+        logger.info(userService.getAllUsers().toString());
         return "registration.html";
     }
 
